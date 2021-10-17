@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2991382114742283528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695537, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695538, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: maxSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695538, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: maxHearts
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695538, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695538, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: corpsePrefab
+      value: 
+      objectReference: {fileID: 322237499202185397, guid: cbd798c152c3e3948b2d2da39f970c61, type: 3}
+    - target: {fileID: 2295372461202695538, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: currentHearts
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695541, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_Name
+      value: ogre_EnemyVariant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295372461202695542, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d331b1dcf2ffdd4fa8f9fb351f2ecb0, type: 3}
+    - target: {fileID: 2295372461202695543, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bc2c3d94cd2649744b1a8ca40ae253aa, type: 2}
+    - target: {fileID: 7174889794111800433, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922137486254264334, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}
+      propertyPath: maxSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5b80c3ec5bc5fa549b17d656cd973672, type: 3}

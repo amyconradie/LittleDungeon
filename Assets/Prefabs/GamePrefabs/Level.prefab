@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7097403668062929347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7097403668062929346}
+  - component: {fileID: 7097403668062929345}
+  - component: {fileID: 7097403668062929344}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7097403668062929346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097403668062929347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7097403668062929345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097403668062929347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cdd36aa7e39f5b40ba93735e520d6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCam: {fileID: 1633338419113786322, guid: 2a418a649cd26ca4b80466436ad220ac, type: 3}
+  postProcessingOn: 1
+  cameraDistance: 40
+  player: {fileID: 6250640452493886117, guid: 68a3360fc84ebb34892a37dae872e93f, type: 3}
+  mazeSize: 11
+--- !u!114 &7097403668062929344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097403668062929347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5da84b423060248b3606495eed9003, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorPrefabs:
+  - {fileID: 1867642685547315128, guid: a54516eb2d649f742ae660113a3ba1a7, type: 3}
+  - {fileID: 3198436117552282567, guid: 4e6963ca8f140d847bd82c47213cfda5, type: 3}
+  - {fileID: 5377688570126131182, guid: c3e9f4104d276b74386df12e65c045a3, type: 3}
+  - {fileID: 621788587945865311, guid: 43ed1d7af3ac2ad4db0acf8fec063cdf, type: 3}
+  - {fileID: 7695775070205256856, guid: 50d0d0dfd76a6704585a27a72a2d5d9f, type: 3}
+  - {fileID: 2702754765975204206, guid: 869ed63f6967a7643997662d92d266e5, type: 3}
+  - {fileID: 3025132763331432493, guid: 0f3bbe5d25fef8e4988e58053fd146ce, type: 3}
+  wallPrefabs:
+  - {fileID: 5427398177880335344, guid: 53529452d0855614386b6fa529078195, type: 3}
+  - {fileID: 5711167467649108812, guid: 8dc484d73e1611c4ea16cd86be0a7da7, type: 3}
+  - {fileID: 3618210645971614304, guid: 5908daac9f105b047a69d747a392a8d1, type: 3}
+  - {fileID: 5805891071068926824, guid: 42b34b9c988e1874dbe024a79aee5cec, type: 3}
+  - {fileID: 4024872517640871801, guid: b611131d764dc65478bd68fd21f78355, type: 3}
+  - {fileID: 621406884282318523, guid: 13effbbbeb70fb34a9b7839cbedddb85, type: 3}
+  - {fileID: 1201363927438242726, guid: 3f1a0a88c346b3744bbdd2c43c4ce698, type: 3}
+  - {fileID: 4910179117027754025, guid: 035c5430e8e3ef942ac0b0a3a84561e8, type: 3}
+  consumables:
+  - {fileID: 1380145112030505941, guid: 639ec2571ae7cc343b013649dff6dee5, type: 3}
+  - {fileID: 8482414367670526185, guid: 4790b82a1cc1c414cb1a4be83723d81d, type: 3}
+  - {fileID: 7088361871773899339, guid: c685ba866712b3a419fec9a1c5fbb546, type: 3}
+  enemyPrefabs:
+  - {fileID: 6677488596340058737, guid: cbebdc07c828c7747b1c1d977802bece, type: 3}
+  - {fileID: 2775622534898115640, guid: cf93cc9adbf32634db8d755208b9a3ce, type: 3}
+  - {fileID: 3916244057576753277, guid: 128cf20f953a085439755d51b194c0f4, type: 3}
+  - {fileID: 4350183678337161929, guid: 1278c50d6826b5747a23bc8c82c8816a, type: 3}
+  - {fileID: 2822570788998873466, guid: d9afdacc4dcb8054d99efb87a6c3632b, type: 3}
+  - {fileID: 5396258010808865448, guid: 3a26fa213e513774989e97059c55e1fb, type: 3}
+  stairPrefab: {fileID: 9072189958342830613, guid: 6e2476db2fe57a745adbe0eca7e01c95, type: 3}
+  mazeSize: 11
+  enemyCount: 5
+  wallType: 2
+  floorType: 2
+  enemyType: 0

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7462474762399825032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8040554743518155012}
+  - component: {fileID: 2541889261211336396}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8040554743518155012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7462474762399825032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.310495, y: -17.189728, z: -49.794506}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2541889261211336396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7462474762399825032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebf86013f09d4e43b990a6e330b2275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: characterDeath
+    clip: {fileID: 8300000, guid: a3b392156132bc544aa0132319c27f57, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0.8
+    maxDistance: 10
+    minDistance: 0
+    source: {fileID: 0}
+  - name: bite
+    clip: {fileID: 8300000, guid: e3cd72b241fb66642ad8a9d0fb161191, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0.8
+    maxDistance: 10
+    minDistance: 0
+    source: {fileID: 0}
+  - name: pickupItem
+    clip: {fileID: 8300000, guid: 4df4e2420e1a98d4a87b9f0ca073b7c7, type: 3}
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 0.5
+    maxDistance: 10
+    minDistance: 0
+    source: {fileID: 0}
+  - name: steps
+    clip: {fileID: 8300000, guid: 03c526b24942b564ea61a79a4713828e, type: 3}
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 0.5
+    maxDistance: 10
+    minDistance: 0
+    source: {fileID: 0}
+  - name: buttonClick
+    clip: {fileID: 8300000, guid: ecada3bef41716f48a9848fdf6ee8868, type: 3}
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 0.5
+    maxDistance: 10
+    minDistance: 0
+    source: {fileID: 0}
+  audioMixer: {fileID: 24300002, guid: 2dd598a12de7108429d512bfce193577, type: 2}
